@@ -4,5 +4,11 @@
 <app-extrato></app-extrato>
 -->
 
-<router-outlet></router-outlet>
+<header>
+  <a routerLink="extrato">Extrato</a>
+  <a routerLink="nova-transferencia" routerLinkActive="ativo">Nova Transferência</a>
+</header>
 
+<main>
+  <router-outlet></router-outlet>
+</main>
